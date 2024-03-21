@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos</title>
+    <!--Link de font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Esto es el archivo style que creamos nosotros de css-->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/car-logo.png" class="Logo" alt="">
+            <div class="Menu">
+            <!--La etiqueta a sirve para conectar hipervinculos a letras, es decir, las dirige a otra pagina-->
+            <a href="#">Inicio</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+            <a href="#">Formulario</a>
+            <a href="#">FQ</a>
+        </div>
+        <!--La etiqueta i es para redirigir desde un icono-->
+        <div class="Redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        </nav>
+        <div class="hero">
+            <div class="texto">
+                
+                <h4>El mejor automovil</h4>
+                
+                <h1>Listo Para <br> <span>La Mejor Experiencia</span></h1>
+                <a href="#" class= "boton"> 
+                    Solicita tu prueba
+                </a>
+            </div>
+        </div>
+    </header>
+    
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+setInterval(() => {
+    heroBg.style.backgroundImage = "url(img/bg-light.jpg)"
+    
+    setTimeout(() => {
+        heroBg.style.backgroundImage = "url(img/bg.jpg)"
+    }, 1000);
+}, 2200);
+    </script>
+</body>
+</html>

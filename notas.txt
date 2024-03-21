@@ -1,0 +1,13 @@
+Los pixeles: Son unidad de medida que asegura la adaptabilidad
+y visualizacion en todos los dispositivos moviles y no se deforma
+
+Los porcentajes en texto me permiten que se adapten al tamano de la pantalla
+y se deforme segun el dispositivos en el que lo estamos utilizando
+
+text-transform: Sirve para el proceso de modificar una secuencia de texto
+en otra secuencia de texto
+
+Efecto Hover: es un cambio visual que ocurre cuando colocas el mouse en un texto que planea ser
+interactivo
+
+<center> </center> Sirve para poner un texto en el centro de la pagina
